@@ -1,0 +1,104 @@
+\documentclass[10pt,twocolumn]{article} 
+\usepackage{oxycomps} % use the main oxycomps style file
+
+\usepackage{biblatex}
+\addbibresource{references.bib}
+
+\pdfinfo{
+    /Title (Ethics Paper)
+    /Author (Malcolm Holman)
+}
+
+\title{Ethics Paper}
+
+\author{Malcolm Holman}
+\affiliation{Occidental College}
+\email{holmanm@oxy.edu}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+	The proposed climbing training app cannot be moved into production because not enough steps have been taken to ensure there are not ethical concerns. Some concerns are specific to the climbing portion of the app while others pertain to mobile apps in general. Primarily, because the app is going to be used to train for climbing, user safety and health has to be a top priority, which it currently is not. Additionally, accommodations need to be planned for users with disabilities in both the user interface and exercises provided. Finally, and more generally for mobile apps, a comprehensive plan for user data security and privacy must be in place.
+
+	
+\section{Safety}
+
+\subsection{Background}
+
+	 This project has an abundance of safety concerns for the users because not enough is being done to ensure climber safety while climbing and training. Climbing is a dangerous sport and due to the culture, muscles used, and intensity, training can also often lead to injury.  
+	
+	The risks associated with climbing and training are largely unknown to beginners and often ignored by more experienced climbers. While the risk of an acute serious injury or death is quite low, somewhere between .2 and 3.2 cases per 1000 hours, less acute but potentially long term recurring injuries are more common. As rock climbing has become more popular with the emergence of accessible indoor climbing options, overuse and chronic injuries from climbing have increased to 65\%, with up to 90\% of these injuries being to upper extremities. The most common of injuries to these upper extremities are injuries to the fingers and elbows. \cite{meyers_rock_nodate}
+
+Over 50\% of climbers have documented pain in their fingers, specifically in the distal interphalangeal and proximal interphalangeal joints that can be found in the index and long fingers. \cite{meyers_rock_nodate} While these are the most common places for finger injury, other injuries such as injuries to the A2 pulley of the flexor sheath, and forearm tendons and ligaments are also common. Human fingers are not designed to bear the amount of weight that is required by some climbing holds which results in an imbalance in flexor and extensor forces, causing pain. In the elbow, pain is typically found in the medial epicondyle, lateral epicondyle and the anterior elbow, pain that is commonly referred to as “climbers elbow.” Intensity of elbow injuries can range from mild tendonitis and discomfort to bicep tendon ruptures in cases of extreme overuse. \cite{meyers_rock_nodate}
+ 
+
+\subsection{Causes}
+	The cause of these injuries is typically due to overuse, experience or lack thereof, and the demanding physical requirements of the sport and its training. Overuse comes in the form of over-training syndrome (OTS), which as the name implies stems from repetitive training of the same muscle groups. The primary way to train for climbing is by climbing, but this project also promotes an abundance of off wall training that replicate movements that can be found on the wall and use the same muscle groups. Exercises such as hangboarding, pull ups, lock offs, and dead hangs put increased stress on the aforementioned injury prone areas and can be dangerous. The role of experience in relation to injury is rather complicated because these injuries affect both beginners and advanced climbers. Beginners have less knowledge about their body’s physical limits and while the climbs they are attempting put less stress on the fingers, their fingers and tendons will not be strong enough to withstand an abundance of off-wall training. Advanced climbers have stronger tendons and can handle more training but will end up facing the same challenges that beginners do on a harder scale. As climbs become more difficult, the wall gets steeper, the holds get smaller, and more weight is demanded to be put on upper extremities, increasing the risk of injury. This increase in climb difficulty also demands a more intense off wall training routine to maintain and increase strength.  \cite{meyers_rock_nodate}
+
+\subsection{Prevention}
+
+If this project is to move forward, information about injury prevention is imperative. Before engaging in a custom climbing training regiment, users need the necessary knowledge to ensure they are as risk averse as possible. Even small injuries and lower amounts of pain need to be addressed early, or prevented, so that they do not deteriorate into chronic long term issues. There are four main categories of climbing injury prevention: proper warm-up, antagonistic training, stretching, and rest. 
+
+ The first effective method of injury prevention is ample dynamic warm up. Studies have shown that static stretching before an activity increases the risk of injury, but a targeted dynamic warm-up increases blood flow to muscles so that they can safely perform. \cite{noauthor_top_nodate} Users need to be presented with an abundance of exercises to warm up their muscles, especially their upper extremities, to decrease the risk of injury. The second method of recommended injury prevention is the training of antagonistic muscles. Climbing puts stress on the same muscle groups throughout both climbing and training which creates strength imbalances that put unnecessary strain on tendons and ligaments. Providing users with antagonist exercises and information about the muscles that they target will help longevity and injury prevention. \cite{meyers_rock_nodate} Third, users should be made aware of the value of stretching because when used properly it enhances muscle mobility and range of motion, reducing the risk of injury. \cite{noauthor_top_nodate} Finally, and most importantly, users need to be made aware of the importance of rest. Sufficient rest is a crucial, often overlooked, step for muscle recovery and in turn injury prevention. 
+
+    
+\section{Disabilities}
+
+\subsection{Overview}
+
+The proposed app clearly does not take into account potential users with disabilities. This issue is multifaceted because climbing as a sport requires vision, full body strength, focus, and coordination to be properly executed. While there are many potential groups who will face accessibility issues when using the proposed app, many of the more common accessibility concerns can be solved with enough setting customization. Examples of these settings include, but are not limited to: text to speech, text size customization, closed captions, mono audio, sticky keys, speech recognition, color blind options. \cite{noauthor_computer_nodate}
+
+\subsection{Possible solutions}
+
+The easiest group to account for is those who are blind or have low vision (BLV). The term “easiest” is used because BLV has the most research done about it and as a result the most solutions. \cite{mack_what_2021} Granting accessibility to blind individuals is commonly done by providing users with text to speech and speech recognition functionality. This will allow blind users to interact with the app’s functionality without needing to see and tap the screen. For low vision and colorblind people, having alternate colorblind-friendly color schemes prepared will make their app experience smoother. For those with hearing impairments, any video instructions for exercises should have customizable closed captions along with them. Mono audio is another feature that should be taken into consideration, though most smartphones have a setting that turns all stereo audio output from the device into mono. 
+	
+Beyond general app accessibility, there are also climbing-specific disability concerns that should be taken into account. As physically demanding as climbing is, there is still a portion of the climbing community who are paraclimbers. There is even an International Federation of Sport Climbing world championship for paraclimbers. \cite{noauthor_climbing_nodate} The training needs of these climbers should be addressed by the app. An example of a possible solution to this problem is incorporating alternative assisted exercises that accommodate specific needs. This issue extends beyond the app though because while some climbing gyms have accommodations for people with disabilities, many climbing gyms lack disability support. This can be bypassed by providing modified exercises that can be done at home or in a typical commercial gym. \cite{noauthor_climbing_nodate}
+
+
+
+\section{Privacy and Security}
+
+\subsection{Overview}
+
+	A comprehensive security plan for the app is necessary to ensure the safety of users and their information. Lacking a clear plan to address each of these issues could result in security and privacy problems for the users. The three main security and privacy concerns associated with the app are input validation, data storage and exploitation, and encryption 
+
+\subsection{Validation}
+	
+
+If users are going to be creating a profile and have the option to upload their own custom exercises, the validation of those inputs will be important. 
+Input validation makes sure that the data being received is properly formed. 
+Malformed data can contain harmful code that could break some of the app’s existing functionality or compromise the security of user data.
+\cite{data_defense_7_nodate}
+The validation of user account creation (full name, username, email, etc.) can be reliably validated using regular expressions (Regex).
+\cite{data_defense_7_nodate}
+ 
+
+\subsection{Encryption}
+	Provided user inputs are validated and confirmed to be properly formed, there needs to be a plan for data to be stored safely. The app’s intended operating system, Apple’s iOS for iPhone, has existing secure storage API’s that give every iOS app developer access to cryptographic hardware. This API can be used to ensure that both data entry and retrieval is done securely. Another related unaddressed weakness is the permissions that the app will request. Limiting the amount of permissions (contacts, microphone, camera etc.) that the app demands will help reduce the number of targets for potential hackers. 
+	\cite{data_defense_7_nodate}
+
+	Finally app encryption, more specifically key management, is one of the most important measures of security for the app. Breaking a modern encryption algorithm is unrealistic for most hackers, so instead they choose to target keys. 
+	\cite{data_defense_7_nodate} 
+	Lack of a clear plan to store and hide encryption keys is a glaring issue with this project. 
+
+	A solution to the problem of lack of encryption is the use of multiple layers of encryption. This ensures that even if a hacker manages to bypass a single layer of encryption, there is a second layer with another key waiting for them. Ensuring that API keys are not stored in resource folders or anywhere that can be easily accessed by users or hackers. A way to ensure keys are safely stored is through the use of a private/public key exchange or an NDK. 
+	\cite{data_defense_7_nodate}
+
+
+\subsection{Terms and conditions}
+
+The collection of user data inherently poses ethical concerns because users should be informed about the measures or lack thereof that have been taken to protect their data. The terms and conditions should explicitly state that the app is collecting user information to allow them to log in and interact with each other. They should also be given enough information to know what the long term storage plan of their data will be. If they are going to be allowed to remove their data from the database, they should be made aware of steps to do so. However, if they are not going to be able to remove their data in the long run, they should be informed about what is being done to keep the data safe. \cite{gebru_datasheets_2021}
+
+\section{Conclusion}
+
+Without addressing the ethical concerns of safety, security, accessibility, and privacy, this proposed climbing training app cannot proceed. The possible ethical issues that could arise from this project range in severity and are not all easily solved. While some may be difficult to work around, all ethical concerns should at least be taken into account before moving forward with the development of this project. 
+
+
+
+
+\printbibliography
+
+\end{document}
